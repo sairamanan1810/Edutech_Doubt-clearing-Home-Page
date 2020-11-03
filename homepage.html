@@ -26,10 +26,12 @@
 
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
-      <a href="#"><img src="images/logoNavbar.jpg" width=90% alt="Image"></a>
+        <a href="#" id="navbarLogo"><img src="images/logoNavbar.jpg" width=90% alt="Image" ></a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="navbarResponsive">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
@@ -43,6 +45,7 @@
           <a class="dropdown-item" href="#">Maths</a>
           <a class="dropdown-item" href="#">Science</a>
           <a class="dropdown-item" href="#">Social Science</a>
+        </div>
       </li>
 
       <li class="nav-item dropdown">
@@ -55,6 +58,7 @@
               <a class="dropdown-item" href="#">JEE-MAINS</a>
               <a class="dropdown-item" href="#">JEE-ADVANCE</a>
               <a class="dropdown-item" href="#">NEET</a>
+            </div>
 
       </li>
       <li class="nav-item dropdown">
@@ -65,10 +69,13 @@
           <a class="dropdown-item" href="#">CAREERS</a>
           <a class="dropdown-item" href="#">BLOG</a>
           <a class="dropdown-item" href="#">CONTACT</a>
+        </div>
       </li>
 
-    </div>
-  </div>
+
+
+</div>
+</div>
 </nav>
 <!-- Slider-->
 <div id="slides" class="carousel slide" data-ride="carousel">
@@ -81,18 +88,20 @@
       <img src="images/1stSlider.jpg" class="col-12" style="height:500px;" alt="">
       <div class="carousel-caption">
         <h1 class="display-5" style="color:red;font-weight:bold;">Get your doubts rectified from anywhere and at any time</h1>
-
-
       </div>
     </div>
     <div class="carousel-item" style="position:relative">
-      <div class="row">
-        <img src="images/2ndSlider.jpg" style="height:500px;" class="col-5">
+      <div class="row" style="height:500px;">
+        <div class="col-6">
+          <img src="images/2ndSlider.jpg" class="col-12" style="height:500px;">
+        </div>
+
         <div class="carousel-caption">
-          <h1 class="display-5" style="color:red;font-weight:bold;">Every child can now learn in their own Mother Tongue and gain knowlegde</h1>
+          <h1 class="display-5" style="color:red;font-weight:bold;">Everyone can now learn in their own Mother Tongue and gain knowlegde</h1>
         </div>
-        </div>
+      </div>
     </div>
+
     </div>
 
   </div>
@@ -114,115 +123,115 @@
 <div class="container-fluid padding">
   <div class="row welcome text-center">
     <div class="col-12">
-      <h1 class="display-5"> HOW DOES THIS WORK?
+      <h1 class="display-5" style="color:blue"> HOW DOES THIS WORK?
       </h1>
       <hr>
     </div>
   </div>
 </div>
 
-<div class="container-fluid" style="margin:auto;width:90%;margin-bottom:20px;">
-  <div class="row-12" style="margin:auto;width:100%;">
-    <img src="images/doubtReaction.jpg" class="col-xs-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-    <img src="images/arrow.jpg" class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
-    <img src="images/Middlepart.JPG" class="col-xs-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-    <img src="images/arrow.jpg" class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" >
-    <img src="images/gotItReaction.jpg" class="col-xs-2 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-  </div>
+<div class="container-fluid">
+    <div class="row" style="margin:auto;width:90%;padding:40px;">
+      <img src="images/doubtReaction.jpg" class="col-10 col-xs-10 col-sm-3 col-md-3 col-lg-3 col-xl-2" >
+      <img  src="images/arrow.jpg" class="col-7 col-xs-7 col-sm-1 col-md-1 col-lg-1 col-xl-2" id="arrow" style="height:50%;margin:auto;" >
+      <img src="images/Middlepart.JPG" class="col-10 col-xs-10 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+      <img src="images/arrow.jpg" class="col-7 col-xs-7 col-sm-1 col-md-1 col-lg-1 col-xl-2" id="arrow" style="height:50%;margin:auto;">
+      <img src="images/gotItReaction.jpg" class="col-10 col-xs-10 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+</div>
 </div>
 <div class="container-fluid padding" style="margin-top:50px;margin-bottom:30px;">
 <center><h1 class="display-5" style="color:#0000FF;">Cracking NEET and JEE Will Become Easier</h1></center>
 <div class="row" style="margin:auto;width:70%;margin-top:30px;">
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" >
     <center><i class="fa fa-thumbs-up" aria-hidden="true" style="width:40px;height:40px;"></i></center>
     <center><h3 class="display-6" style="font-weight:bold;">Get Doubts cleared Instantly</h3></center>
-    <p class="lead">No need to pursue teachers at school or spend hours to find a solution.
+    <p class="lead" id="tobejustified">No need to pursue teachers at school or spend hours to find a solution.
       Get ease of mind with instant answers in your preferred language.</p>
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
     <center><i class="fa fa-thumbs-up" aria-hidden="true" style="width:40px;height:40px;"></i></center>
   <center>  <h3 class="display-6" style="font-weight:bold;">100% Guaranteed Solution</h3></center>
-    <p class="lead">No questions remain unsolved, even the toughest ones. Also you can directly
+    <p class="lead" id="tobejustified">No questions remain unsolved, even the toughest ones. Also you can directly
       contact tutors if you have further doubts on solution.</p>
   </div>
 </div>
 </div>
 <!--Boards-->
-<div class="container-fluid padding">
+<div class="container-fluid  padding">
   <center><h1 class="display-5" style="color:#0000FF;">Learn your board in the language you prefer</h1></center>
   <div class="row" style="margin:auto;width:90%;padding:40px;">
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;" id="board">
     <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
     <center><img src="images/Tamil_Nadu_board.png"  alt=""></center>
 <center><p class="lead"><a href="#"><bold>Tamil Nadu Board</bold></a></p></center>  </div>
 </div>
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
-    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
+    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;" id="board">
     <center><img src="images/keralaBoard.jpg" style="object-fit:contain;" alt=""></center>
 <center><p class="lead"><a href="#"><bold>Kerala Board</bold></a></p></center>    </div>
   </div>
 
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
-    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
+    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;" id="board">
     <center><img src="images/karnatakaBoard.jpg" alt=""></center>
     <center><p class="lead"><a href="#"><bold>Karnataka Board</bold></a></p></center>
     </div>
 </div>
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
-    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
+    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;" id="board">
       <center><img src="images/cbseBoard.jpg" alt=""></center>
 <center><p class="lead"><a href="#"><bold>CBSE Board</bold></a></p></center>  </div>
   </div>
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
-    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
+    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;" id="board">
     <center><img src="images/maharashtraboard.jpg" alt=""></center>
     <center><p class="lead"><a href="#"><bold>Maharashtra Board</bold></a></p></center>
     </div>
 </div>
   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" style="padding-bottom:5px;">
-    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;">
+    <div style="border-width:2px;border-style:solid;padding:5px;border-radius:10px;" id="board">
       <center><img src="images/gujarat.jpg" alt=""></center>
 <center><p class="lead"><a href="#"><bold>Gujarat Board</bold></a></p></center>  </div>
   </div>
 </div>
 </div>
 <!-- Books -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" >
   <center><h1 class="display-5" style="color:#0000FF;">Get free access to 5000 + books with solutions</h1></center>
   <div class="row" style="margin:auto;width:90%;padding:40px;">
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book" style="width:40px;height:40px;" ></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>R D Sharma</bold></a></p></center>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>R D Sharma</bold></a></p></center>
     </div>
   </div>
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book-open" style="width:40px;height:40px;" ></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>Cengage</bold></a></p></center>    </div>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>Cengage</bold></a></p></center>    </div>
   </div>
 
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book" style="width:40px;height:40px;" ></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>D C Pandey</bold></a></p></center>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>D C Pandey</bold></a></p></center>
     </div>
 </div>
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book" style="width:40px;height:40px;" ></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>Himanshu Pandey</bold></a></p></center>  </div>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>Himanshu Pandey</bold></a></p></center>  </div>
   </div>
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book-open" style="width:40px;height:40px;" ></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>H C Verma</bold></a></p></center>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>H C Verma</bold></a></p></center>
     </div>
 </div>
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-2" style="padding-bottom:5px;">
     <div style="padding:5px;border-radius:10px;background:#bfbaba;opacity:0.8;height:120px;">
       <center><i class="fas fa-book-open" style="width:40px;height:40px;"></i></center>
-      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;"><bold>Archives</bold></a></p></center>  </div>
+      <center><p class="lead"><a href="#" style="color:black;font-weight:bold;text-decoration: underline;" id="booksName"><bold>Archives</bold></a></p></center>  </div>
   </div>
 </div>
 </div>
@@ -394,7 +403,7 @@
   </div>
 </div>
 <div class="container-fluid padding" style="margin-top:40px;">
-<center>  <h1 class="display-5" style="padding:10px;">Join us to be a part of Problem solving</h1></center>
+<center>  <h1 class="display-5" style="padding:10px;color:blue">Join us to be a part of Problem solving</h1></center>
 <form action="" style="width:50%;margin:auto;">
   <div class="form-group">
     <label for="text" style="font-size:20px;">Name:</label>
@@ -415,7 +424,8 @@
   <center><button type="submit" class="btn-primary" style="font-size:20px;border-radius:5px;">Book Now</button></center>
 </div>
 
-</div>
+
   </body>
+
 
 </html>
